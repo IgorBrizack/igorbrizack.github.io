@@ -11,12 +11,34 @@ p {
     font-size: 25px;
 }
 
-h3 {
+
+
+.titles {
+    font-size: 40px;
     background-color: white;
-    font-size: 35px;
 }
 
-.size{
-    background-size: 10%;
+.lists {
+    font-size: 20px;
+}
+
+.links{    
+    line-height: 10px;
+    color: rgb(172, 158, 158);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#pages{
+    font-size: 20px;
+    background-color:#164e97e5;
+    width: 10%;
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+#quemSouEu{
+    width: auto;
 }
 
