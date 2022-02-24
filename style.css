@@ -40,17 +40,36 @@ p {
     background-color: rgb(68, 66, 66);
     width: 10%;
     box-shadow: 5px 5px 5px black;
-    
 }
 
 #qmsou{
-    margin-left: 100px;
+    margin-top: -20px;
+    margin-left: 200px;
     float: left;
     width: 40%;
-    text-align: left;
+    text-align: justify;
 }
 
 #imagem {
+    margin-top: 30px;
     float: left;
-    margin-left: 100px;
+    margin-left: 190px;
+}
+
+#maintitle{
+    
+    text-align: left;
+    float: left;
+    margin-left: 200px;
+}
+
+#habilities{
+    text-align: left;
+    float: left;
+    margin-top: 80px;
+    margin-left: -170px;
+}
+
+#whoami{
+    font-size: 25px;
 }
