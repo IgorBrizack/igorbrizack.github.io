@@ -1,3 +1,22 @@
 #fotoIgor {
     border-radius: 50%;
 }
+
+body {
+    text-align: center;
+    background-color: #155DBA;
+}
+
+p {
+    font-size: 25px;
+}
+
+h3 {
+    background-color: white;
+    font-size: 35px;
+}
+
+.size{
+    background-size: 10%;
+}
+
