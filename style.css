@@ -1,81 +1,66 @@
-#fotoIgor {
-    border-radius: 20%;
+* {
+    margin: 0;
 }
 
 body {
-    color: #c59843;
-    text-align: center;
-    background-color: #1a2029;
+    background-color: #faf4f4; 
 }
 
-p {
-    font-size: 25px;
+.mainmenu{
+    display: flex;
+    justify-content: center;
 }
 
-.titles {
-    margin-left: 35px;
-    text-align: left;
-    font-size: 30px;
-}
-
-.lists {
-    text-align: left;
-    font-size: 25px;
+.menu-buttons {
+    word-spacing: -8px;
+    background-color:#007A78;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px black solid;
+    margin-left: -4px;   
     
 }
 
-.links{    
-    top: 400px;
-    line-height: 10px;
-    color: rgb(172, 158, 158);
+.menu-buttons:hover{
+    background-color: #0b6463;
+}
+
+div div a {
+    font-family: monospace;
+    color: #FFC745;
+    text-decoration: none;
+}
+
+#foto-igor {
+    border-radius: 50%;
+}
+
+#foto-align {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-title {
+    font-family: monospace;
+    color: #FFC745;
     font-size: 20px;
-    font-weight: 500;
-    text-decoration: underline;
+    word-spacing: -15px;
+    background-color: #007A78;
+    width: 1000px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
-.links:hover{
-    margin: 4px red solid;
-}
-
-#pages{
-    margin: 0;
+#main-title-align {
+    display: flex;
+    justify-content: center; 
     text-align: center;
-    float: left;
-    font-size: 20px;
-    background-color: rgb(68, 66, 66);
-    width: 10%;
-    box-shadow: 5px 5px 5px black;
 }
 
-#qmsou{
-    margin-top: -20px;
-    margin-left: 200px;
-    float: left;
-    width: 40%;
-    text-align: justify;
-}
-
-#imagem {
-    margin-top: 30px;
-    float: left;
-    margin-left: 190px;
-}
-
-#maintitle{
-    text-align: left;
-    float: left;
-    margin-left: 200px;
-}
-
-#habilities{
-    text-align: left;
-    float: left;
-    margin-top: 100px;
-    margin-left: -170px;
-    width: 40%;
-}
-
-#whoami{
-    font-size: 30px;
+#main-imagem{
+    background-image: url("./imagens/backgroundimg.jpg");
+    
 }
 
