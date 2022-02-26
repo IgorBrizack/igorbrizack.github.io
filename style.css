@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #5778FF;
-    color: #FAC93C;
+    background-color: #182625;
+    color: white;
 }
 
 .mainmenu{
@@ -15,7 +15,7 @@ body {
 
 .menu-buttons {
     word-spacing: -8px;
-    background-color: #1836AD;
+    background-color: #2F3D40;
     display: inline-block;
     font-size: 20px;
     padding: 5px;
@@ -24,12 +24,13 @@ body {
 }
 
 .menu-buttons:hover{
-    background-color: #5778FF;
+    background-color: #182625;
+    transition: 300ms;
 }
 
 div div a {
     font-family: monospace;
-    color: #FAC93C;
+    color: white;
     text-decoration: none;
 }
 
@@ -47,10 +48,10 @@ div div a {
 #main-title {
     font-family: monospace;
     font-style: italic;
-    color: #FAC93C;
+    color: white;
     font-size: 20px;
     word-spacing: -15px;
-    background-color: #1836AD;
+    background-color: #2F3D40;
     width: 1000px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -68,8 +69,6 @@ div div a {
 #main-imagem{
     background-image: url("./imagens/backgroundimg.jpg");
     background-size: cover;
-    
-    
 }
 
 .border-button-left {
@@ -85,13 +84,15 @@ div div a {
 #quemsouBox{
     display: block;
     justify-content: center;
-    background-color: #1836AD;
+    background-color: #2F3D40;
     width: 900px;
-    height: 180px;
+    height: 250px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 25px;
     margin: auto;
     margin-top: 20px;
+    font-family: monospace;
+    margin-bottom: 20px;
 }
 
 #quemsou-title {
@@ -101,5 +102,28 @@ div div a {
 #quemsou-text {
     margin: 15px;
     text-align: justify;
-    font-size: 20px;
 }
+
+#habilidades{
+    display: block;
+    justify-content: center;
+    background-color: #2F3D40;
+    width: 800px;
+    height: 250px;
+    border-radius: 10px;
+    margin: auto;
+    font-family: monospace;
+}
+
+#my-habilities-title{
+    text-align: center;
+    font-size: 25px;
+}
+
+#my-habilities-text {
+    margin: auto;
+    margin-left: 30px;
+    font-size: 20px;
+    border-bottom: 20px;
+}
+
