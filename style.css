@@ -1,9 +1,11 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: #faf4f4; 
+    background-color: #5778FF;
+    color: #FAC93C;
 }
 
 .mainmenu{
@@ -13,27 +15,27 @@ body {
 
 .menu-buttons {
     word-spacing: -8px;
-    background-color:#007A78;
+    background-color: #1836AD;
     display: inline-block;
     font-size: 20px;
     padding: 5px;
     border: 2px black solid;
-    margin-left: -4px;   
-    
+    margin-left: -4px;
 }
 
 .menu-buttons:hover{
-    background-color: #0b6463;
+    background-color: #5778FF;
 }
 
 div div a {
     font-family: monospace;
-    color: #FFC745;
+    color: #FAC93C;
     text-decoration: none;
 }
 
 #foto-igor {
     border-radius: 50%;
+    border: 1px black solid;
 }
 
 #foto-align {
@@ -44,14 +46,17 @@ div div a {
 
 #main-title {
     font-family: monospace;
-    color: #FFC745;
+    font-style: italic;
+    color: #FAC93C;
     font-size: 20px;
     word-spacing: -15px;
-    background-color: #007A78;
+    background-color: #1836AD;
     width: 1000px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border: 2px black solid;
+    box-shadow: 2px 2px black;
 }
 
 #main-title-align {
@@ -62,6 +67,8 @@ div div a {
 
 #main-imagem{
     background-image: url("./imagens/backgroundimg.jpg");
+    background-size: cover;
+    
     
 }
 
@@ -75,3 +82,24 @@ div div a {
     border-top-right-radius: 10px;
 }
 
+#quemsouBox{
+    display: block;
+    justify-content: center;
+    background-color: #1836AD;
+    width: 900px;
+    height: 180px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#quemsou-title {
+    text-align: center;
+}
+
+#quemsou-text {
+    margin: 15px;
+    text-align: justify;
+    font-size: 20px;
+}
