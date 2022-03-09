@@ -14,24 +14,24 @@ body {
 }
 
 .menu-buttons {
-    word-spacing: -8px;
+    word-spacing: -2px;
     background-color: #2F3D40;
     display: inline-block;
     font-size: 20px;
     padding: 5px;
     border: 2px black solid;
     margin-left: -4px;
+    text-decoration: none;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
 }
 
 .menu-buttons:hover{
     background-color: #182625;
     transition: 300ms;
-}
-
-div div a {
-    font-family: monospace;
-    color: white;
-    text-decoration: none;
 }
 
 #foto-igor {
