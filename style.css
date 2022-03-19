@@ -1,129 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #182625;
-    color: white;
-}
-
-.mainmenu{
+#main-menu {
     display: flex;
-    justify-content: center;
+    height: 80px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: blue;
 }
 
-.menu-buttons {
-    word-spacing: -2px;
-    background-color: #2F3D40;
+.links {
+    text-align: center;
     display: inline-block;
-    font-size: 20px;
-    padding: 5px;
-    border: 2px black solid;
-    margin-left: -4px;
+    margin: auto;
+    padding: 1px;
+    width: 150px;
+    height: 30px;
+    background-color: green;
     text-decoration: none;
-}
-
-.links{
-    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
     color: white;
 }
-
-.menu-buttons:hover{
-    background-color: #182625;
-    transition: 300ms;
-}
-
-#foto-igor {
-    border-radius: 50%;
-    border: 1px black solid;
-}
-
-#foto-align {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-#main-title {
-    font-family: monospace;
-    font-style: italic;
-    color: white;
-    font-size: 20px;
-    word-spacing: -15px;
-    background-color: #2F3D40;
-    width: 1000px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 2px black solid;
-    box-shadow: 2px 2px black;
-}
-
-#main-title-align {
-    display: flex;
-    justify-content: center; 
-    text-align: center;
-}
-
-#main-imagem{
-    background-image: url("./imagens/backgroundimg.jpg");
-    background-size: cover;
-}
-
-.border-button-left {
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.border-button-right{
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-#quemsouBox{
-    display: block;
-    justify-content: center;
-    background-color: #2F3D40;
-    width: 900px;
-    height: 250px;
-    border-radius: 10px;
-    font-size: 25px;
-    margin: auto;
-    margin-top: 20px;
-    font-family: monospace;
-    margin-bottom: 20px;
-}
-
-#quemsou-title {
-    text-align: center;
-}
-
-#quemsou-text {
-    margin: 15px;
-    text-align: justify;
-}
-
-#habilidades{
-    display: block;
-    justify-content: center;
-    background-color: #2F3D40;
-    width: 800px;
-    height: 250px;
-    border-radius: 10px;
-    margin: auto;
-    font-family: monospace;
-}
-
-#my-habilities-title{
-    text-align: center;
-    font-size: 25px;
-}
-
-#my-habilities-text {
-    margin: auto;
-    margin-left: 30px;
-    font-size: 20px;
-    border-bottom: 20px;
-}
-
