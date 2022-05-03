@@ -76,12 +76,46 @@ header {
     flex-direction: column;
 }
 
+.projetos-box-container {
+    display: flex;
+}
+
 .projetos-box {
     width: 50%;
     margin-top: 10px;
     margin-left: 10px;
     text-align: justify;
 }
+
+.custom-button-container {
+    display: flex;
+    width: 100px;
+    background-color: blue;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.custom-button-container:hover {
+    background-color: rgba(0, 0, 255, 0.395);
+}
+
+.custom-button {
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.imagem-box {
+    width: 572px;
+    height: 250px;
+    margin: 20px auto auto auto;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
 
 
 
