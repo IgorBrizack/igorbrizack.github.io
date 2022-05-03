@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Igor Brizack</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
     <link rel="icon" href="./imagens/new-favicon-32x32.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
 </head>
-
 <body>
     <header>
         <section class="port1">
             <div>
-                <p>Igor Brizack - Portfolio Web</p>
+                <h1>Igor Brizack - Portfolio Web</h1>
             </div>
         </section>
         <section class="links">
@@ -34,9 +34,36 @@
         <div class="img-box">
             <img id="imagem-perfil" src="./imagens/perfil.png" alt="imagem de perfil">
         </div>
-        <div >
-            <h1>Quem sou eu?</h1>
-        </div>
+        <section class="main-content">
+            <div class="content-box">
+                <h1>Quem sou eu?</h1>
+                <p id="who-im">Olá, me chamo Igor Brizack, sou de Salvador - Ba - Brasil. Tenho 27 anos e sou formado em Engenharia Civil. Sou novo aluno da Trybe, cursando na turma 21. Nesse momento estou em transição de carreira buscando ingressar na área de tecnologia como Desenvolvedor Web Full-Stack.</p>
+            </div>
+            <div class="content-box">
+                <h1>Minhas Habilidades</h1>
+                <ul class="list-group" id="habilities">
+                    <li class="list-group-item bgcolor">HTML5</li>
+                    <li class="list-group-item bgcolor">CSS3</li>
+                    <li class="list-group-item bgcolor">JavaScript</li>
+                    <li class="list-group-item bgcolor">Node</li>
+                    <li class="list-group-item bgcolor">Bootstrap</li>
+                    <li class="list-group-item 
+                    bgcolor">Jest</li>
+                </ul>
+            </div>
+        </section>
+        <h1>Projetos desenvolvidos</h1>
+        <section class="projetos-container">
+            <div class="projetos-box">
+                <h2>TrybeWarts Formulário</h2>
+                <p>O projeto TrybeWarts, consiste na criação de um formulário utilizando HTML, Css e JavaScript. Foi um projeto desenvolvido em dupla com o intuito de aplicarmos nossas habilidades de soft-skills como a comunicação e colaboração.</p>
+            </div>
+            <div class="projetos-box">
+                <h2>Shopping Cart</h2>
+                <p>O projeto Shopping Cart, foi o último projeto desenvolvido no módulo de fundamentos da Trybe. Nesse projeto foram aplicados a maioria dos conhecimentos adquiridos durante esse período. Alguns dos principais conhecimentos aplicados foram, os testes com o JEST, a aplicação das High Order Functions para simplificar nosso código e a requisição de API. Criamos assim um e-commerce onde o usuário poderia selecionar produtos para adicionar o carrinho de compras.</p>
+            </div>
+        </section>
+        
     </main>
     <script src="./script.js"></script>
     <script src="./jquery-3.6.0.min.js"></script>

@@ -1,3 +1,5 @@
+
+
 header {
     display: flex;
     flex-direction: row;
@@ -21,14 +23,65 @@ header {
 }
 
 .img-box {
+    margin-top: 10px;
     display: flex;
     border: 1px solid black;
-    width: 100%;
     justify-content: center;
 }
 
 #imagem-perfil {
     border-radius: 100%;
-
 }
+
+.main-content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-box {
+    background-color: #eae3e3;
+    border: 1px solid rgb(0, 0, 0,.125);
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+#who-im {
+    padding: 10px;
+    border-radius: 3px;
+    text-align: justify;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+#habilities {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px auto auto auto;
+    width: 80%;
+}
+
+.bgcolor {
+    background-color: #eae3e3;;
+}
+
+.projetos-container {
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.projetos-box {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+
 
