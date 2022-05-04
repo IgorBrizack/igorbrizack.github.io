@@ -1,18 +1,35 @@
-
-
 header {
+    background-color: #24869C;
     display: flex;
     flex-direction: row;
 }
 
-.port1 {
-    border: 1px black solid;
+.port {
+    margin-top: 5px;
+    margin-left: 10px;
     display: flex;
     width: 80%;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+#portfolio-text {
+    color: black;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
 .links {
-    border: 1px black solid;
     display: flex;
     flex-direction: row;
     width: 20%;
@@ -25,7 +42,6 @@ header {
 .img-box {
     margin-top: 10px;
     display: flex;
-    border: 1px solid black;
     justify-content: center;
 }
 
@@ -40,7 +56,7 @@ header {
 }
 
 .content-box {
-    background-color: #eae3e3;
+    background-color: #2FAFCC;
     border: 1px solid rgb(0, 0, 0,.125);
     font-family: 'Rubik', sans-serif;
     border-radius: 5px;
@@ -66,18 +82,18 @@ header {
 }
 
 .bgcolor {
-    background-color: #eae3e3;;
+    background-color: #8AC7D5;
 }
 
 .projetos-container {
     margin-top: 10px;
     display: flex;
-    border: 1px solid black;
     flex-direction: column;
 }
 
 .projetos-box-container {
     display: flex;
+    background-color: #2FAFCC;
 }
 
 .projetos-box {
@@ -90,15 +106,14 @@ header {
 .custom-button-container {
     display: flex;
     width: 100px;
-    background-color: blue;
+    background-color: #12424D;;
     justify-content: center;
-    border: 1px solid black;
     border-radius: 10px;
     height: 30px;
 }
 
 .custom-button-container:hover {
-    background-color: rgba(0, 0, 255, 0.395);
+    background-color: #8AC7D5;
 }
 
 .custom-button {
@@ -108,11 +123,14 @@ header {
     color: white;
 }
 
+.custom-button:hover {
+    color: black;
+}
+
 .imagem-box {
     width: 572px;
     height: 250px;
     margin: 20px auto auto auto;
-    border: 1px solid black;
     margin-bottom: 10px;
 }
 
