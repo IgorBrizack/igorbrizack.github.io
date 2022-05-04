@@ -1,129 +1,198 @@
-* {
-    margin: 0;
-    padding: 0;
+header {
+    background-color: #24869C;
+    display: flex;
+    flex-direction: row;
 }
 
-body {
-    background-color: #182625;
-    color: white;
+.port {
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    width: 80%;
 }
 
-.mainmenu{
+.title {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
-.menu-buttons {
-    word-spacing: -2px;
-    background-color: #2F3D40;
-    display: inline-block;
-    font-size: 20px;
-    padding: 5px;
-    border: 2px black solid;
-    margin-left: -4px;
-    text-decoration: none;
+h1 {
+    color: black;
+    font-family: 'Rubik', sans-serif;
 }
 
-.links{
-    text-decoration: none;
-    color: white;
-}
-
-.menu-buttons:hover{
-    background-color: #182625;
-    transition: 300ms;
-}
-
-#foto-igor {
-    border-radius: 50%;
-    border: 1px black solid;
-}
-
-#foto-align {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-#main-title {
-    font-family: monospace;
-    font-style: italic;
-    color: white;
-    font-size: 20px;
-    word-spacing: -15px;
-    background-color: #2F3D40;
-    width: 1000px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 2px black solid;
-    box-shadow: 2px 2px black;
-}
-
-#main-title-align {
-    display: flex;
-    justify-content: center; 
-    text-align: center;
-}
-
-#main-imagem{
-    background-image: url("./imagens/backgroundimg.jpg");
-    background-size: cover;
-}
-
-.border-button-left {
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.border-button-right{
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-#quemsouBox{
-    display: block;
-    justify-content: center;
-    background-color: #2F3D40;
-    width: 900px;
-    height: 250px;
-    border-radius: 10px;
+#portfolio-text {
+    color: black;
+    margin-top: 10px;
     font-size: 25px;
-    margin: auto;
-    margin-top: 20px;
-    font-family: monospace;
-    margin-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
 }
 
-#quemsou-title {
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    margin-top: 10px;
+}
+
+.links div {
+    width: 50%;
+}
+
+.img-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#imagem-perfil {
+    border-radius: 100%;
+}
+
+.main-content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-box {
+    background-color: #2FAFCC;
+    border: 1px solid rgb(0, 0, 0,.125);
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
     text-align: center;
+    width: 400px;
+    height: 400px;
 }
 
-#quemsou-text {
-    margin: 15px;
+.content-box-title {
+    margin-top: 10px;
+}
+
+#who-im {
+    padding: 10px;
+    border-radius: 3px;
+    text-align: justify;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+#habilities {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px auto auto auto;
+    width: 80%;
+}
+
+.bgcolor {
+    background-color: #8AC7D5;
+}
+
+.projetos-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projetos-box-container {
+    display: flex;
+    background-color: #2FAFCC;
+}
+
+.projetos-box {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
     text-align: justify;
 }
 
-#habilidades{
-    display: block;
+.custom-button-container {
+    display: flex;
+    width: 100px;
+    background-color: #12424D;;
     justify-content: center;
-    background-color: #2F3D40;
-    width: 800px;
-    height: 250px;
     border-radius: 10px;
-    margin: auto;
-    font-family: monospace;
+    height: 30px;
+    align-items: center;
 }
 
-#my-habilities-title{
+.custom-button-container:hover {
+    background-color: #8AC7D5;
+}
+
+.custom-button {
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.custom-button:hover {
+    color: black;
+}
+
+.imagem-box {
+    width: 572px;
+    height: 250px;
+    margin: 20px auto auto auto;
+    margin-bottom: 10px;
+}
+
+.hbtn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 8px 20px;
+    margin: 0px 3px 6px;
     text-align: center;
-    font-size: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    z-index: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+} 
+
+.hbtn:hover {
+    color: white;
 }
 
-#my-habilities-text {
-    margin: auto;
-    margin-left: 30px;
-    font-size: 20px;
-    border-bottom: 20px;
-}
+.hbtn i {
+    padding-right: 8px;
+} 
 
+.hb-border-right-br3 {
+    position: relative;
+    transition-duration: 0.3s;
+    overflow: visible;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 22px;
+} 
+
+.hb-border-right-br3::after {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 2;
+    margin: 0px;
+    bottom: 0px;
+    right: 0px;
+    border-left-width: 2px;
+    transition: border-left-width 0.1s ease 0.2s, width 0.2s ease 0.1s, height 0.2s ease 0s, margin 0.2s ease 0s;
+} 
+
+.hb-border-right-br3:hover::after {
+    width: 0px;
+    height: 60%;
+    border-width: 2px 2px 2px 0px;
+    margin: 5% 0px;
+    transition: border-left-width 0.1s ease 0s, width 0.2s ease 0.1s, height 0.2s ease 0.2s, margin 0.2s ease 0.2s;
+}
