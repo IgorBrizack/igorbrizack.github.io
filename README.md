@@ -4,4 +4,4 @@ Aqui você encontrará alguns dos meu projetos pessoais e projetos desenvolvidos
 
 # Be welcome to my web portfolio!
 
-Here you can find some of my personal projects and some of those developed during my period into Trybe, while I was being formed as a Full-Stack web developer.
+Here you can find some of my personal projects and some of those developed during my period at Trybe, while I was being formed as a Full-Stack web developer.
