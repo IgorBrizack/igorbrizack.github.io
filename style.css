@@ -1,3 +1,7 @@
+body {
+    background-color: #66d4ed;
+}
+
 header {
     background-color: #24869C;
     display: flex;
@@ -102,20 +106,22 @@ h1 {
 }
 
 .projetos-box {
+    padding: 30px;
+    text-align: center;
     width: 50%;
     margin-top: 10px;
     margin-left: 10px;
-    text-align: justify;
 }
 
 .custom-button-container {
     display: flex;
-    width: 100px;
+    width: 130px;
     background-color: #12424D;;
     justify-content: center;
     border-radius: 10px;
     height: 30px;
     align-items: center;
+    margin: auto;
 }
 
 .custom-button-container:hover {
@@ -123,6 +129,7 @@ h1 {
 }
 
 .custom-button {
+    padding: 10px;
     align-items: center;
     font-family: 'Rubik', sans-serif;
     text-decoration: none;
